@@ -1,0 +1,15 @@
+rss: []
+sitemaps:
+  - https://www.danangport.com/sitemap.xml
+  - https://www.haiphongport.com.vn/sitemap.xml
+  - https://saigonnewport.com.vn/sitemap.xml
+  - https://vimc.co/sitemap.xml
+  - https://ptsc.com.vn/sitemap.xml
+list_pages:
+  - url: https://www.vinamarine.gov.vn/tin-tuc
+    link_selector: "article a, .news-list a"
+    limit: 15
+  - url: https://www.vr.org.vn/portal
+    link_selector: "a[href*='tin-tuc'], .post-title a"
+    limit: 15
+pages: []
