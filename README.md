@@ -9,7 +9,7 @@ Tự động thu thập tin tức hàng hải Việt Nam → GPT tóm tắt (có
    - `WORDPRESS_USERNAME=` (user Editor dành riêng, ví dụ api-bot)
    - `WORDPRESS_APP_PASSWORD=` (Application Password của user đó)
 2) Kiểm tra nguồn trong `app/scraper/sources.yaml` (đã cắm sẵn hàng hải VN).
-3) Chạy một vòng: `python -m app.main --once` (hoặc dùng Docker/GitHub Actions).
+3) Chạy một vòng: `python app.main --once` (hoặc dùng Docker/GitHub Actions).
 
 ## Safe Mode
 - `app/config/safety.yaml`:
@@ -24,3 +24,4 @@ Tự động thu thập tin tức hàng hải Việt Nam → GPT tóm tắt (có
 - Tôn trọng robots.txt/TOS.
 - Chỉ tóm tắt và luôn **trích dẫn nguồn**.
 - Tránh các chủ đề cấm theo pháp luật và chính sách nền tảng.
+ 
